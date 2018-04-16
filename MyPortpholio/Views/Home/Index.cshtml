@@ -1,0 +1,346 @@
+﻿@model MyPortpholio.Models.Emailmodel
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100217039-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-100217039-2');
+    </script>
+
+    <link rel="icon" type="image/png" href="~/favicon.ico" sizes="32x32" />
+
+    <meta charset="UTF-8">
+    <title>Roman Suprun</title>
+    <meta name="description" content="My portfolio, I’m a Ukraine programmer and web-developer living in Vinnytsia">
+    <meta name="Keywords" content="portfolio, programmer, Ukraine, web-developer, Vinnytsia">
+
+    @*<meta name="viewport" content="width=device-width, initial-scale=1" />*@
+    @*<meta name="format-detection" content="telephone=no" />*@
+
+    <link href="~/Content/Styles/style.css" rel="stylesheet" />
+    <script src="~/Scripts/javascript.js"></script>
+    <link href="~/Scripts/slick/slick.css" rel="stylesheet" />
+    <link href="~/Scripts/slick/slick-theme.css" rel="stylesheet" />
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>-->
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="~/Scripts/slick/slick.min.js"></script>
+    <script src="~/Scripts/fontawesome-all.js"></script>
+    <script src="~/Scripts/SmooseScroll.js"></script>
+    <script src="~/Scripts/DetailJob.js"></script>
+    <script>smoose();</script>
+    <!--<script>showDetail();</script>-->
+
+</head>
+<body>
+
+    <div id="panel" >
+        <div id="logo">
+            <a id="percent">0</a>
+        </div>
+    </div>
+
+
+    <div class="fon" id="startsection">
+        <div class="Header" id="menu">
+            <a href="#startsection" class="Header-image"></a>
+            <div class="Menu">
+                <a href="#startsection">HOME</a>
+                <a href="#aboutsection">ABOUT</a>
+                <a href="#worksection">WORK</a>
+                <a href="#followmesection">FOLLOW ME</a>
+                <a href="#contactsection">CONTACT</a>
+            </div>
+        </div>
+
+        <div class="welcome">
+            <H2>WELCOME TO MY PORTFOLIO</H2>
+            <h1>I’m a Ukraine programmer and web-developer living in Vinnytsia</h1>
+
+            <div id="troublemobile">
+                You may have some troubles with view on your mobile devices,
+                because they haven`t supported yet.
+            </div>
+        </div>
+    </div>
+
+
+    <div id="showdetail">
+        <div class="showdetail-container">
+            <div id="showdetail-content"></div>
+            <button class="close" onclick="onClickExit()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="descriptionProject">
+                <h2 id="description-in-showdetail-container-h1"></h2>
+                <p id="description-in-showdetail-container"></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="atension">
+        The page is in develop stage may be some issues with work.
+        Currently mobile devices are not supported, throught that may be
+        issues with incorrect site display. These and other problems
+        will be fixed soon.
+    </div>
+
+    <div class="personal_information">
+            <div class="recent_works" id="aboutsection">
+                <h3>RECENT WORKS</h3>
+                <div class="slick-slider">
+                    <p>
+                        One of my last works is this site. It is now at 
+                        the development stage. This site is for me, for my development 
+                        and also for people who want to learn something new for 
+                        themselves. There will be collected my finished works, 
+                        as well as some ideas and undertakings of new projects,
+                        which will be primarily interesting for people who program 
+                        or want to program, or for people who live or are connected 
+                        with the field of informational technologies.
+                    </p>
+                    <p>
+                        I have created a programm which calculates a correct 
+                        cost of house in Vinnytsia region. That was my bachelour 
+                        work in my university. The name of programm is R.H.I.V.W.U.N.N.
+                        You may find programm screenshot in section WORK(MY PROJECTS).
+                    </p>
+                    @*<p>
+                        Insipidity the sufficient discretion imprudence resolution
+                        sir him decisively. Proceed how any engaged visitor.
+                        Explained propriety off out perpetual his you. Feel sold
+                        off felt nay rose met you. We so entreaties cultivated
+                        astonished is. Was sister for few longer mrs sudden talent
+                        become. Done may bore quit evil old mile. If likely am of
+                        beauty tastes.
+                    </p>*@
+                </div>
+                <div class="arrows-boder"></div>
+            </div>
+            <div class="person">
+                <h3>WELCOME TO MY SITE</h3>
+                <div class="body-person">
+                    <div class="myfoto"></div>
+                    <p>
+                        I was born on August 5, 1995. I study in
+                        Vinnytsia National Technical University in
+                        the Faculty of Information Technology and Computer Science,
+                        Department of Computer Science. My education is
+                        a technician programmer. I have experience with
+                        game`s development for phone platforms including
+                        Android and IOS. I have the works on AppStore and
+                        Google Play. I have knowledge of Photoshop, Flash,
+                        ShiVa 3D, Dev C ++, Builder C ++,
+                        Visual Studio 2010\2013\2015\2017, Visual Studio Code,
+                        Eclipse, MS SQL, MSSMS 2016.
+                        Programming languages and technologies - C ++, C #, Lua,
+                        HTML, CSS, XML, JSON, ADO.NET, ASP.NET MVC, JavaScript, React, Unit testing, Git.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    <div class="myproject" id="worksection">
+        <div class="myproject-container-head">
+            <p>MY PROJECTS</p>
+            <hr>
+            <p id="description">
+                These are some of my projects. 
+                They may help give some answers for your questions.
+            </p>
+        </div>
+        <div class="myproject-container">
+            <div id="item1" class="myproject-item" style="
+                    background-image: url('../../Images/ProjectImages/1.jpg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;">
+                <figcaption class="mask">
+                    <h3>Site-portfolio</h3>
+                    <p>
+                        This site is for me, my development and also for
+                        people who want to learn something new for themselves.
+                    </p>
+
+                </figcaption>
+                <a class="fancybox" id="1" onclick="showDetail('1')"><i class="fas fa-search"></i></a>
+            </div>
+            <div id="item2" class="myproject-item" style="
+                    background-image: url('../../Images/ProjectImages/2.jpg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;">
+                <figcaption class="mask">
+                    <h3>Site-parsing</h3>
+                    <p>
+                        Parsing site of Formula 1. Parsing race results. 
+                    </p>
+
+                </figcaption>
+                <a class="fancybox" id="2" onclick="showDetail('2')"><i class="fas fa-search"></i></a>
+            </div>
+            <div id="item3" class="myproject-item" style="
+                    background-image: url('../../Images/ProjectImages/3.jpg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;">
+                <figcaption class="mask">
+                    <h3>R.H.I.V.W.U.N.N</h3>
+                    <p>
+                        This programm bases on technology of artificial
+                        intelligence (such as artificial neural networks) to
+                        determine the fair market value of housing.
+                    </p>
+
+                </figcaption>
+                <a class="fancybox" id="3" onclick="showDetail('3')"><i class="fas fa-search"></i></a>
+            </div>
+            <div id="item4" class="myproject-item" style="
+                    background-image: url('../../Images/ProjectImages/4.jpg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;">
+                <figcaption class="mask">
+                    <h3>Spichki</h3>
+                    <p>
+                        Board game. The game which will help you to
+                        distract from work and routine.
+                    </p>
+
+                </figcaption>
+                <a class="fancybox" id="4" onclick="showDetail('4')"><i class="fas fa-search"></i></a>
+            </div>
+            <div id="item5" class="myproject-item" style="
+                    background-image: url('../../Images/ProjectImages/5.jpg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;">
+                <figcaption class="mask">
+                    <h3>Style-picker</h3>
+                    <p>
+                        This site will help to determine the interier of your own house.
+                    </p>
+
+                </figcaption>
+                <a class="fancybox" id="5" onclick="showDetail('5')"><i class="fas fa-search"></i></a>
+            </div>
+            <div id="item6" class="myproject-item" style="
+                    background-image: url('../../Images/ProjectImages/6.jpg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;">
+                <figcaption class="mask">
+                    <h3>Integraton</h3>
+                    <p>
+                        This site was created for the customer.
+                    </p>
+
+                </figcaption>
+                <a class="fancybox" id="6" onclick="showDetail('6')"><i class="fas fa-search"></i></a>
+            </div>
+            <div id="item7" class="myproject-item" style="
+                    background-image: url('../../Images/ProjectImages/7.jpg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;">
+                <figcaption class="mask">
+                    <h3>ZombieCar</h3>
+                    <p>
+                        Now it’s time to face the apocalypse and blow the crap out of thousands of zombies!
+                    </p>
+
+                </figcaption>
+                <a class="fancybox" id="7" onclick="showDetail('7')"><i class="fas fa-search"></i></a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="followme" id="followmesection">
+        <div class="myproject-container-head">
+            <p>FOLLOW ME</p>
+            <hr>
+            <p id="descriptionfollowme">
+                Follow for these links to get more information about me and my job.
+            </p>
+        </div>
+        <div class="followme-icons">
+            <a href="https://www.facebook.com/roman.suprun.714" class="followme-icons ico1"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/roman-suprun-ba193a13b/" class="followme-icons ico2"><i class="fab fa-linkedin"></i></a>
+            <a href="https://vk.com/nurpus_ri" class="followme-icons ico3"><i class="fab fa-vk"></i></a>
+
+        </div>
+    </div>
+
+    <div class="contact" id="contactsection">
+        <div class="contact-header">
+            <p>CONTACT</p>
+            <hr>
+            <p id="contact-header-description">
+                Leave a Message
+            </p>
+        </div>
+        <div class="mail-container">
+            <div class="mail-form">
+                <form action="/Email/Index" method="post">
+                    @*<div class="input-field">
+                        <input type="text" name="Name" class="form-control" placeholder="Your Name...">
+                    </div>
+                    <div class="input-field">
+                        <input type="email" name="EMail" class="form-control" placeholder="Your Email...">
+                    </div>*@
+                    <div class="input-field">
+                        <input type="email" name="EmailSubject" class="form-control" placeholder="Your Email...">
+                    </div>
+                    <div class="input-field">
+                        <textarea name="Message" class="form-control" placeholder="Message..."></textarea>
+                    </div>
+                    <button type="submit" id="submit" class="btn btn-blue btn-effect">Send</button>
+                </form>
+            </div>
+            <div class="contact-information">
+                <h2>CONTACT ME</h2>
+                <hr>
+                <br>
+                <p>
+                    Ukraine, Vinnitsia
+                </p>
+                <p>
+                    Phone: +38 067 271 83 86
+                </p>
+                <p>
+                    supra8771@gmail.com
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        slider();
+    </script>
+    
+
+    <script>
+        LoadAnimation();
+    </script>
+
+
+</body>
+</html>
