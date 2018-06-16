@@ -183,13 +183,24 @@ body{
     margin: 0 1%;
 }
 
+@media screen and (max-device-width: 640px) {
+    .recent_works {
+        /*border: solid 1px red;*/
+        width: 600px;
+        height: 500px;
+        margin: 0 1%;
+        margin-bottom:70px;
+    }
+}
+
+
 .arrows-boder{
     width: 70px;
     height: 30px;
     border: solid 2px white;
     float: right;
     margin: 82px;
-    margin-top: 80px;
+    margin-top: -11px;
 }
 
 .person{

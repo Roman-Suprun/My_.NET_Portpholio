@@ -20,3 +20,26 @@ C:\Users\supra\OneDrive\Рабочий стол\My_.NET_Portpholio\MyPortpholio\
 C:\Users\supra\OneDrive\Рабочий стол\My_.NET_Portpholio\MyPortpholio\MyPortpholio\obj\Debug\MyPortpholio.dll
 C:\Users\supra\OneDrive\Рабочий стол\My_.NET_Portpholio\MyPortpholio\MyPortpholio\obj\Debug\MyPortpholio.pdb
 C:\Users\supra\OneDrive\Рабочий стол\My_.NET_Portpholio\MyPortpholio\MyPortpholio\obj\Debug\MyPortpholio.csprojResolveAssemblyReference.cache
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\bin\MyPortpholio.dll.config
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\bin\MyPortpholio.dll
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\bin\MyPortpholio.pdb
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\bin\System.Web.Helpers.dll
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\bin\System.Web.Mvc.dll
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\bin\System.Web.Razor.dll
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\bin\System.Web.Webpages.dll
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\bin\System.Web.Webpages.Razor.dll
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\bin\System.Web.Razor.xml
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\bin\System.Web.Webpages.xml
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\bin\System.Web.Webpages.Razor.xml
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\bin\System.Web.Helpers.xml
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\bin\System.Web.Mvc.xml
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\obj\Debug\MyPortpholio.csprojAssemblyReference.cache
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\obj\Debug\MyPortpholio.csproj.CoreCompileInputs.cache
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\obj\Debug\MyPortpholio.csproj.CopyComplete
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\obj\Debug\MyPortpholio.dll
+C:\Users\Roman\Desktop\My_.NET_Portpholio\MyPortpholio\obj\Debug\MyPortpholio.pdb
